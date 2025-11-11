@@ -19,7 +19,7 @@ pipeline {
             steps {
                 echo "Deploying website to Apache server..."
                 // copy website files to Apache web root
-                sh 'sudo cp -r * /var/www/html/'
+                sh 'sudo cp -R * /var/www/html/'
             }
         }
     }
