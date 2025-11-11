@@ -1,7 +1,9 @@
 This is a sample jenkins ci/cd project which  use jenkins to automatically
 
 1.Pull a static website (HTML/CSS) from GitHub
+
 2.Build (optional check step)
+
 3.Deploy to an Apache web server
 
 
